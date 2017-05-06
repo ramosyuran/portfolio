@@ -143,6 +143,12 @@ textarea {
        height: 90vh;
    }
 
+     .bk2{
+       background: url("../img/yamobile.jpg") fixed bottom;
+       background-size: cover;
+       height: 60vh;
+     }
+
    /*background image end */
 
    /*menu*/
@@ -254,6 +260,10 @@ textarea {
       height: 80vh;
     }
 
+    .bk2 .center{
+      /*height: 70vh;*/
+    }
+
     /*center end*/
 
     /*container index*/
@@ -262,22 +272,31 @@ textarea {
       text-align: center;
     }
 
-    .exampleproject{
-      border: #21295c 2px solid;
-      opacity: 0.9;
-      margin: 10px auto;
+    .containerindex h2{
+      width: 100%;
     }
 
-    /*.exampleproject:hover{
-      opacity: .7;
-    }*/
+    .exampleproject{
+      border: #D4E5C1 2px solid;
+      margin: 60px auto;
+      box-shadow: 5px 5px 25px black;
+    }
+
+    .exampleproject:hover{
+      opacity: .9;
+    }
 
     .exampleproject h3{
       background: #21295c;
       font-size: 18px;
-      padding: 10px;
+      padding: 20px;
       margin: 0;
-      color: #D4E5C1;
+      color: #f0544f;
+    }
+
+    .exampleproject p{
+      width: 80%;
+      margin: 20px auto;
     }
 
     /*end container index*/
@@ -286,7 +305,7 @@ textarea {
 
     footer{
       background: #D4E5C1;
-      opacity: .7;
+      opacity: .8;
       margin-top: 25px;
       display: flex;
       flex-direction: column;
@@ -333,6 +352,11 @@ textarea {
           background-size: cover;
       }
 
+      .bk2{
+          background: url("../img/yatab.jpg") fixed bottom;
+          background-size: cover;
+      }
+
       .mobile{
         display: none;
       }
@@ -352,6 +376,10 @@ textarea {
         width: 80%;
         padding: 10px;
         z-index: 10;
+      }
+
+      .tabpc span{
+        color: #f0544f;
       }
 
       .tabpc ul{
@@ -380,6 +408,15 @@ textarea {
         width: 15px;
       }
 
+      .containerindex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .part1, .part2{
+        width: 70%;
+      }
 
     }
 
@@ -388,6 +425,11 @@ textarea {
     @media (min-width: 1024px) {
 
       .bk{
+          background: url("../img/ya.jpg") fixed bottom;
+          background-size: cover;
+      }
+
+      .bk2{
           background: url("../img/ya.jpg") fixed bottom;
           background-size: cover;
       }
@@ -402,7 +444,15 @@ textarea {
       }
 
       .tabpc{
-        width: 50%;
+        width: 60%;
+      }
+
+      .part1, .part2{
+        width: 45%;
+      }
+
+      .containerindex{
+        justify-content: space-between;
       }
 
     }
