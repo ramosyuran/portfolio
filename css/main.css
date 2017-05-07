@@ -114,9 +114,11 @@ textarea {
 
      body{
        color: #21295c;
+       font-family: 'Maven Pro', sans-serif;
      }
 
-    .containerindex{
+    .containerindex,
+    .containerproj{
        width: 90%;
        margin: auto;
      }
@@ -141,7 +143,7 @@ textarea {
        background: url("../img/yamobile.jpg") fixed bottom;
        background-size: cover;
        height: 90vh;
-   }
+    }
 
      .bk2{
        background: url("../img/yamobile.jpg") fixed bottom;
@@ -268,18 +270,19 @@ textarea {
 
     /*container index*/
 
-    .exampleproject, .containerindex h2{
+    .exampleproject, .containerindex h2,
+    .containerproj h2{
       text-align: center;
     }
 
-    .containerindex h2{
+    .containerindex h2, .containerproj h2{
       width: 100%;
     }
 
     .exampleproject{
       border: #D4E5C1 2px solid;
-      margin: 60px auto;
-      box-shadow: 5px 5px 25px black;
+      margin: 20px auto 60px auto;
+      box-shadow: 5px 5px 25px #21295c;
     }
 
     .exampleproject:hover{
@@ -300,6 +303,14 @@ textarea {
     }
 
     /*end container index*/
+
+    /*page project*/
+
+    .containerproj h4{
+      margin: 0;
+    }
+
+    /*end page projets*/
 
     /*footer*/
 
@@ -338,8 +349,6 @@ textarea {
       margin: 0;
       font-size: 14px;
     }
-
-
 
     /*footer end*/
 
@@ -418,6 +427,23 @@ textarea {
         width: 70%;
       }
 
+      /*projects page*/
+
+      .containerproj{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .ex{
+        width: 45%;
+      }
+
+      #cre, #rep{
+        width: 100%;
+      }
+
+      /*end projects page*/
     }
 
     /*DESKTOP MEDIA*/
@@ -432,15 +458,6 @@ textarea {
       .bk2{
           background: url("../img/ya.jpg") fixed bottom;
           background-size: cover;
-      }
-
-      .tabpc li a:hover{
-        letter-spacing: 8px;
-        transform:scale(.5);
-       -ms-transform:scale(.5); /* IE 9 */
-       -moz-transform:scale(.5); /* Firefox */
-       -webkit-transform:scale(.5); /* Safari and Chrome */
-       -o-transform:scale(.5);
       }
 
       .tabpc{
