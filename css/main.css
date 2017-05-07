@@ -118,7 +118,8 @@ textarea {
      }
 
     .containerindex,
-    .containerproj{
+    .containerproj,
+    .containerabout{
        width: 90%;
        margin: auto;
      }
@@ -143,7 +144,7 @@ textarea {
        background: url("../img/yamobile.jpg") fixed bottom;
        background-size: cover;
        height: 90vh;
-    }
+     }
 
      .bk2{
        background: url("../img/yamobile.jpg") fixed bottom;
@@ -262,10 +263,6 @@ textarea {
       height: 80vh;
     }
 
-    .bk2 .center{
-      /*height: 70vh;*/
-    }
-
     /*center end*/
 
     /*container index*/
@@ -277,6 +274,11 @@ textarea {
 
     .containerindex h2, .containerproj h2{
       width: 100%;
+      margin: 8px auto;
+      font-size: 30px;
+      font-weight: normal;
+      color: #f0544f;
+      font-family: 'Lobster', cursive;
     }
 
     .exampleproject{
@@ -294,6 +296,10 @@ textarea {
       font-size: 18px;
       padding: 20px;
       margin: 0;
+      color: #D4E5C1;
+    }
+
+    .exampleproject:hover h3{
       color: #f0544f;
     }
 
@@ -308,9 +314,37 @@ textarea {
 
     .containerproj h4{
       margin: 0;
+      font-size: 20px;
+      text-align: center;
     }
 
     /*end page projets*/
+
+    /*page about*/
+
+    .containerabout figure{
+      width: 200px;
+      padding: 5px;
+      border: #D4E5C1 1px solid;
+    }
+
+    .containerabout p{
+      text-align: justify;
+    }
+
+    .containerabout h3, .containerabout h2{
+      text-align: center;
+    }
+
+    .containerabout a{
+      color: #f0544f;
+    }
+
+    .containerabout a:hover{
+      text-decoration: underline;
+    }
+
+    /*end page about*/
 
     /*footer*/
 
@@ -375,9 +409,11 @@ textarea {
         height: 60px;
         position: fixed;
         background: #21295c;
-        opacity: .9;
+        /*opacity: .9;*/
         z-index: 100;
         color: #D4E5C1;
+        box-shadow: 5px 5px 30px #D4E5C1;
+
       }
 
       .tabpc{
@@ -459,6 +495,12 @@ textarea {
           background: url("../img/ya.jpg") fixed bottom;
           background-size: cover;
       }
+
+      .containerindex,
+      .containerproj,
+      .containerabout{
+         width: 80%;
+       }
 
       .tabpc{
         width: 60%;
