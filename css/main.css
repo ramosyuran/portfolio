@@ -367,6 +367,14 @@ textarea {
       color: #f0544f;
     }
 
+    .disc a{
+      color: #f0544f;
+    }
+
+    .disc a:hover{
+      text-decoration: underline;
+    }
+
     .disc h4,
     .formation h4, .experience h4{
       font-size: 18px;
@@ -402,6 +410,7 @@ textarea {
       display: flex;
       flex-direction: column;
       align-items: center;
+      box-shadow: 5px 5px 12px 5px #D4E5C1;
     }
 
     .logo{
@@ -460,7 +469,6 @@ textarea {
         z-index: 100;
         color: #D4E5C1;
         box-shadow: 5px 5px 30px #D4E5C1;
-
       }
 
       .tabpc{
@@ -582,7 +590,7 @@ textarea {
       }
 
       .containerabout aside{
-        width: 20%;
+        width: 25%;
       }
 
       /*end page about*/
