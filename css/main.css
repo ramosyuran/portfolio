@@ -272,7 +272,8 @@ textarea {
       text-align: center;
     }
 
-    .containerindex h2, .containerproj h2{
+    .containerindex h2, .containerproj h2,
+    .containerabout h2{
       width: 100%;
       margin: 8px auto;
       font-size: 30px;
@@ -336,12 +337,58 @@ textarea {
       text-align: center;
     }
 
-    .containerabout a{
+    .cv a{
+      background: #f0544f;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .containerabout .cv{
+      text-align: center;
+    }
+
+    .cv a:hover{
+      background: white;
+      border: 2px #f0544f solid;
       color: #f0544f;
     }
 
-    .containerabout a:hover{
-      text-decoration: underline;
+    .disc, .formation, .experience{
+      box-shadow: 5px 5px 12px 5px #D4E5C1;
+      padding: 10px;
+      margin-bottom: 50px;
+    }
+
+    .disc h3,
+    .formation h3, .experience h3{
+      border-bottom: 2px #f0544f solid;
+      color: #f0544f;
+    }
+
+    .disc h4,
+    .formation h4, .experience h4{
+      font-size: 18px;
+    }
+
+    .containerabout aside ul img{
+      width: 20px;
+    }
+
+    .containerabout aside li{
+      margin: 10px auto;
+    }
+
+    .containerabout aside{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .containerabout h2{
+      margin-bottom: 30px;
     }
 
     /*end page about*/
@@ -478,8 +525,11 @@ textarea {
       #cre, #rep{
         width: 100%;
       }
-
       /*end projects page*/
+
+      /*page about*/
+
+      /*end page about*/
     }
 
     /*DESKTOP MEDIA*/
@@ -513,6 +563,29 @@ textarea {
       .containerindex{
         justify-content: space-between;
       }
+
+      /*page about*/
+
+      .containerabout{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+
+      .containerabout figure{
+        width: 220px;
+      }
+
+      .abt{
+        width: 70%;
+      }
+
+      .containerabout aside{
+        width: 20%;
+      }
+
+      /*end page about*/
 
     }
 
