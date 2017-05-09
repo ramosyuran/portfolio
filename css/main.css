@@ -319,6 +319,10 @@ textarea {
       text-align: center;
     }
 
+    #cre, #rep{
+      color: #f0544f;
+    }
+
     /*end page projets*/
 
     /*page about*/
@@ -397,6 +401,10 @@ textarea {
 
     .containerabout h2{
       margin-bottom: 30px;
+    }
+
+    .abt img{
+      width: 20px;
     }
 
     /*end page about*/
