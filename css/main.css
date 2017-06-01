@@ -502,7 +502,7 @@ textarea {
         height: 60px;
         position: fixed;
         background: #21295c;
-        /*opacity: .9;*/
+        opacity: .9;
         z-index: 100;
         color: #D4E5C1;
         box-shadow: 5px 5px 30px #D4E5C1;
@@ -589,12 +589,12 @@ textarea {
     @media (min-width: 1024px) {
 
       .bk{
-          background: url("../img/ya.jpg") fixed bottom;
+          background: url("../img/sal.jpg") fixed center;
           background-size: cover;
       }
 
       .bk2{
-          background: url("../img/ya.jpg") fixed bottom;
+          background: url("../img/sal.jpg") fixed bottom;
           background-size: cover;
       }
 
