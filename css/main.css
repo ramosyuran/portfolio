@@ -173,7 +173,7 @@ textarea {
      display: block;
      padding: 10px;
      text-align: center;
-     z-index: 100;
+     z-index: 200;
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      box-sizing: border-box;
@@ -181,7 +181,7 @@ textarea {
 
    nav{
      width: 100%;
-     height: 45%;
+     height: 50%;
      left: -100%;
      margin: 0;
      margin-top: 45px;
@@ -199,6 +199,18 @@ textarea {
    nav ul li a{
      display: inline-block;
      padding: 20px;
+   }
+
+   nav ul li a:hover{
+     color: #f0544f;
+   }
+
+   nav ul li img{
+     width: 35px;
+   }
+
+    nav ul li img:hover{
+     border: #f0544f 1px solid;
    }
 
    /*end menu js*/
@@ -336,10 +348,6 @@ textarea {
       border: #D4E5C1 2px solid;
       margin: 20px auto 60px auto;
       box-shadow: 5px 5px 25px #21295c;
-    }
-
-    .exampleproject:hover{
-      opacity: .9;
     }
 
     .exampleproject h3{
@@ -652,6 +660,10 @@ textarea {
       .containerproj,
       .containerabout{
          width: 80%;
+       }
+
+       .exampleproject:hover{
+         opacity: .9;
        }
 
       .tabpc{
