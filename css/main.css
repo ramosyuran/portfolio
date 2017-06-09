@@ -230,7 +230,7 @@ textarea {
   .center h1{
     margin: 0;
     text-transform: uppercase;
-    border: 2px #D4E5C1 solid;
+    border: 2px #21295c solid;
     font-size: 28px;
     padding: 6px 12px;
     -webkit-transition: all .8s ease; /* Safari and Chrome */
@@ -242,7 +242,7 @@ textarea {
 
   .center h1:hover{
     background: #D4E5C1;
-    /*border: 2px #21295c solid;*/
+    border: 2px #D4E5C1 solid;
     opacity: .7;
     color: #21295c;
   }
