@@ -199,6 +199,11 @@ textarea {
    nav ul li a{
      display: inline-block;
      padding: 20px;
+     -webkit-transition: all .8s ease; /* Safari and Chrome */
+     -moz-transition: all .8s ease; /* Firefox */
+     -ms-transition: all .8s ease; /* IE 9 */
+     -o-transition: all .8s ease; /* Opera */
+     transition: all .8s ease;
    }
 
    nav ul li a:hover{
@@ -228,17 +233,22 @@ textarea {
     border: 2px #D4E5C1 solid;
     font-size: 28px;
     padding: 6px 12px;
+    -webkit-transition: all .8s ease; /* Safari and Chrome */
+    -moz-transition: all .8s ease; /* Firefox */
+    -ms-transition: all .8s ease; /* IE 9 */
+    -o-transition: all .8s ease; /* Opera */
+    transition: all .8s ease;
   }
 
   .center h1:hover{
     background: #D4E5C1;
-    border: 2px #21295c solid;
-    opacity: .5;
+    /*border: 2px #21295c solid;*/
+    opacity: .7;
     color: #21295c;
   }
 
   .center h2, .center h1{
-    color: #D4E5C1;
+    color: #21295c;
   }
 
   .center h2{
