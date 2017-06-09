@@ -98,7 +98,7 @@ textarea {
 
     /*regle commun*/
 
-    .tabpc, .dropdown, footer span{
+    footer span{
       display: none;
     }
 
@@ -125,7 +125,7 @@ textarea {
        margin: auto;
      }
 
-     .bk, .dropdown{
+     .bk{
        width: 100%;
      }
 
@@ -491,57 +491,66 @@ textarea {
           background-size: cover;
       }
 
-      .mobile{
+      /*menu js*/
+
+      .menu_bar{
         display: none;
       }
 
-      header{
+      nav{
+        left: inherit;
         width: 100%;
-        height: 60px;
-        position: fixed;
-        background: #21295c;
-        opacity: .9;
-        z-index: 100;
-        color: #D4E5C1;
-        box-shadow: 5px 5px 30px #D4E5C1;
+        padding: inherit;
+        height: inherit;
+        margin-top: 0;
+        position: inherit;
       }
 
-      .tabpc{
+      nav ul{
         display: flex;
-        width: 80%;
-        padding: 10px;
-        z-index: 10;
-      }
-
-      .tabpc span{
-        color: #f0544f;
-      }
-
-      .tabpc ul{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
       }
 
-      .tabpc li a{
-        width: 30%;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        -webkit-transition: all .6s ease; /* Safari and Chrome */
-        -moz-transition: all .6s ease; /* Firefox */
-        -ms-transition: all .6s ease; /* IE 9 */
-        -o-transition: all .6s ease; /* Opera */
-        transition: all .6s ease;
+      nav ul li{
+        -webkit-transition: all .8s ease; /* Safari and Chrome */
+        -moz-transition: all .8s ease; /* Firefox */
+        -ms-transition: all .8s ease; /* IE 9 */
+        -o-transition: all .8s ease; /* Opera */
+        transition: all .8s ease;
       }
 
-      .tabpc li a:hover{
-        color: #f0544f;
+      nav ul li:nth-child(5):hover{
+        background: none;
       }
 
-      .tabpc img{
-        width: 15px;
+      nav ul li:nth-child(5) a{
+        padding: 5px;
       }
+
+      nav ul li:hover{
+        color: white;
+      }
+
+      nav ul li a{
+        padding: 15px;
+      }
+
+      nav ul li img:hover{
+        border: inherit;
+      }
+
+      nav ul li a:hover{
+        color: inherit;
+      }
+
+      nav span {
+        border-bottom: 2px solid #2b315b;
+      }
+
+      /*end menu js*/
 
       .containerindex{
         display: flex;
@@ -602,56 +611,52 @@ textarea {
          width: 80%;
        }
 
-       .exampleproject:hover{
-         opacity: .9;
-       }
+        .exampleproject:hover{
+           opacity: .9;
+        }
 
-      .tabpc{
-        width: 60%;
-      }
+        .part1, .part2{
+          width: 45%;
+        }
 
-      .part1, .part2{
-        width: 45%;
-      }
+        .containerindex{
+          justify-content: space-between;
+        }
 
-      .containerindex{
-        justify-content: space-between;
-      }
+        /*page about*/
 
-      /*page about*/
+        .containerabout{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
 
-      .containerabout{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: space-between;
-      }
+        .containerabout figure{
+          width: 220px;
+        }
 
-      .containerabout figure{
-        width: 220px;
-      }
+        .abt{
+          width: 70%;
+        }
 
-      .abt{
-        width: 70%;
-      }
+        .containerabout aside{
+          width: 25%;
+        }
 
-      .containerabout aside{
-        width: 25%;
-      }
+        /*end page about*/
 
-      /*end page about*/
+        /*page contact*/
 
-      /*page contact*/
+        .containercontact{
+          justify-content: space-around;
+        }
 
-      .containercontact{
-        justify-content: space-around;
-      }
+        .cont, .containercontact p{
+          width: 40%;
+        }
 
-      .cont, .containercontact p{
-        width: 40%;
-      }
-
-      /*end page contact*/
+        /*end page contact*/
 
     }
 
